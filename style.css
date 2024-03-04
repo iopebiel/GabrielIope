@@ -1,0 +1,30 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+header .header_nav-content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 15px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 70px;
+}
+
+header .header_mail {
+    padding-right: 350px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    padding: 0 12px;
+} 
