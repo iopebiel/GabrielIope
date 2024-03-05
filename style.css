@@ -3,7 +3,21 @@ body {
     font-family: sans-serif;
 }
 
-header .header_nav-content {
+.header {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.header .header_logo {
+    margin: 0 20px;
+}
+
+.header .header_logo img{
+    width: 70px;
+}
+
+.header .header_nav {
     display: flex;
     flex-direction: row;
     margin: 20px 15px;
@@ -12,19 +26,32 @@ header .header_nav-content {
     justify-content: space-between;
 }
 
-header img {
-    width: 70px;
-}
-
-header .header_mail {
-    padding-right: 350px;
-}
-
-header nav ul {
+.header .header_nav nav ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-header nav ul li {
-    padding: 0 12px;
+
+.header nav ul li {
+    border-right: 1px solid #e3e3e3;
+    display: flex;
+    align-items: center;
 } 
+
+.header nav ul li a {
+    padding: 0 20px;
+}
+
+.header nav ul li a span {
+    padding: 10px 0;
+}
+
+.header nav ul li a .header_button-repository {
+    width: 30px;
+}
+
+.header nav ul li a .header_button-repository button span{
+    width: 30px;
+    font-size: 16px;
+}
