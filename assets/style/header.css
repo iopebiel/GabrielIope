@@ -1,0 +1,70 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    justify-content: space-between;
+    background-color: #111;
+}
+
+.header .header_logo {
+    margin: 0 20px;
+}
+
+.header .header_logo img{
+    width: 100px;
+}
+
+.header .header_nav {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 15px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header_nav nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header nav ul li {
+    border-right: 1px solid #f2ebebd6;
+    display: flex;
+    align-items: center;
+} 
+
+.header nav ul li button {
+    padding: 0 20px;
+    display: flex;
+    background-color: #111;
+}
+
+.header nav ul li button span {
+    padding: 10px 3px;
+}
+
+.header_button-repository {
+    margin-left: 20px;
+
+}
+
+.header_button-repository button {
+    border-radius: 10px;
+}
+
+.header_button-repository button a{
+    padding: 0 20px;
+}
+
+.header_button-repository .fa-brands.fa-github {
+    font-size: 30px;
+    padding: 5px;    
+    color: #111;
+}
+

@@ -1,0 +1,8 @@
+body {
+    background-color: #111;
+    font-family: sans-serif;
+}
+
+.active {
+    color: #0a0af8;
+}

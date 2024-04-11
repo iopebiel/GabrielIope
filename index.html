@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Iope</title>
     
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="./assets/style/body.css">
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="./assets/style/main.css">
 
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/solid.min.css" integrity="sha512-jQcpw1zDugORx3f2JtUxXbX/Si4ktq488bmUvGB8Tz9BtlsEYN9hkN7SuaKlHa+4ME95k+hLfrn0mbYCrY/g/w==" 
@@ -32,34 +33,34 @@
         <div class="header">
 
             <div class="header_logo">
-                <img src="./assets/img/teste-logo.png" alt="Logo dedicado ao portifólio de Gabriel Iope">
+                <img src="./assets/img/logo.png" alt="Logo dedicado ao portifólio de Gabriel Iope">
             </div>
 
             <div class="header_nav">
                 <nav>    
                     <ul>
                         <li>
-                            <a href="">
-                                <span class="fa-regular fa-laptop-code"></span>
-                                <span>Projetos</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span class="fa-regular fa-file"></span>
-                                <span>Currículo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
+                            <button id="about">
                                 <span class="fa-solid fa-user-large active"></span>
                                 <span class="active">Sobre</span>
-                            </a>
+                            </button>
+                        </li>
+                        <li>
+                            <button id="Projects">
+                                <span class="fa-regular fa-laptop-code"></span>
+                                <span>Projetos</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button id="Curriculum">
+                                <span class="fa-regular fa-file"></span>
+                                <span>Currículo</span>
+                            </button>
                         </li>
                         <li id="portugues">
-                            <a href="">
+                            <button>
                                 <span>Português</span>
-                            </a>      
+                            </button>      
                         </li>
                     </ul>
                 </nav>            
@@ -92,9 +93,8 @@
                     </div>
                 </div>
             
-                <div class="img-text">
-                    <img src="./assets/img/campus_salto.png" alt="Imagem do Campus Salto">
-                    <div class="paragraph">
+                <div class="projects">
+                    <section class="paragraph">
                         <p>Atualmente estou cursando bacharelado em Ciência da Computação no Instituto Federal de São Paulo Campus Salto.</p>
                         
                         <ul>
@@ -155,6 +155,10 @@
                 <span class="active">Gabriel Iope</span>
             </div>
             <div class="links">
+                <h2 class="active">Me encontre aqui:</h2>
+                
+                <br>
+
                 <ul>
                     <li>
                         <a href="https://www.linkedin.com/in/gabrieliope">
@@ -172,31 +176,6 @@
                         <a href="mailto:gabriel.r.iope@gmail.com">
                             <span class="fa-solid fa-envelope"></span>
                             <span>gabriel.r.iope@gmail.com</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer-nav">
-                <ul>
-                    <li>
-                        <a href="">
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Projetos</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Curriculo</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Sobre</span>
                         </a>
                     </li>
                 </ul>
