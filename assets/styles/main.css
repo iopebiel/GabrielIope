@@ -1,0 +1,222 @@
+.main-content{
+    margin: 10px;
+}
+
+.main-content .home {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 280px 0;
+}
+
+.main-content h1{
+    font-weight: 800;
+    font-size: 7vw;
+}
+
+.main-content .content .img-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 220px 0;
+}
+
+.main-content .content .img-text img {
+    width: 80vw;
+    height: 80vw;
+    margin: 20px;
+    border-radius: 50%;
+
+}
+
+.main-content h2{
+    font-weight: 600;
+    font-size: 5.8vw;
+    padding-bottom: 6vw;
+}
+
+.main-content .content .img-text p {
+    font-weight: 500;
+    font-size: 4.2vw;
+    text-align: left;
+}
+
+.main-content .content .projects{
+    display: flex;
+    padding: 20px 0;
+    margin: 100px 0;
+}
+
+.main-content .content .projects .paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .content .projects .paragraph .item-list {
+    font-size: 3vw;
+    border: 1px solid #fff;
+    background-color: #161515;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 4vw 0;
+    width: 80vw;
+    height: 30vw;
+    margin: 10vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-content .content .projects .paragraph .item-list div {
+    padding: 3px;
+}
+
+.main-content .content .projects .paragraph .item-list p {
+    font-size: 3vw;
+    margin: 3px 0;
+}
+
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #262626;
+    background-color: #262626;
+    border-radius: 50%;
+}
+
+.footer-bar {
+    background-color: #00000099;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: end;
+    font-size: 2.7vw;
+}
+
+.footer-bar ul li {
+    padding: 2px 0;
+}
+
+@media screen and (min-width: 1024px) { /*Telas maiores*/
+    .main-content{
+        margin: 0 100px;
+    }
+
+    .main-content .home {
+        display: flex;
+        text-align: center;
+        margin: 45vh 0 20vh 0;
+    }
+
+    .main-content h1{
+        font-weight: 800;
+        font-size: 4.3vw;
+    }
+
+    .main-content .content {
+        margin: 200px 0;
+    }
+
+    .main-content .content .img-text {
+        display: flex;
+        flex-direction: row;
+        font-weight: 600;
+    }
+
+    .main-content .content .img-text img{
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+    }
+
+    .main-content .content .img-text .paragraph{
+        width: 48vw;
+        margin: 2vw;
+    }
+
+    .main-content h2{
+        font-weight: 600;
+        font-size: 3.2vw;
+        padding-bottom: 2.5vw;
+    }
+
+    .main-content .content .img-text p {
+        font-weight: 500;
+        font-size: 2.3vw;
+        text-align: left;
+    }
+
+    .main-content .content .projects{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        margin: 200px 0 0 0;
+    }
+
+    .main-content .content .projects .paragraph {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content .content .projects .paragraph ul {
+        display: flex;
+    }
+
+    .main-content .content .projects .paragraph ul li {
+        padding: 2vw;
+    }
+
+    .main-content .content .projects .paragraph .item-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.65vw;
+        border: 1px solid #fff;
+        background-color: #161515;
+        border-radius: 13px;
+        padding: 1vw;
+        width: 35vw;
+        height: 15vw;
+        margin: 0;
+    }
+
+    .main-content .content .projects .paragraph .item-list div {
+        padding: 3px;
+    }
+
+    .main-content .content .projects .paragraph .item-list p {
+        font-size: 1.6vw;
+        margin: 3px 0;
+    }
+
+    .repo-language-color {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid var(--bg-language);
+        background-color: var(--bg-language);
+        border-radius: 50%;
+    }
+
+    .footer-bar {
+        background-color: var(--bg-footer);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+        align-items: end;
+        font-size: 20px;
+    }
+
+    .footer-bar ul li {
+        padding: 2px 0;
+    }
+}

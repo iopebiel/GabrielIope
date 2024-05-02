@@ -1,0 +1,12 @@
+body {
+    background-color: var(--bg);
+    font-family: var(--font);
+}
+
+.active {
+    color: var(--highlight);
+}
+
+.link {
+    text-decoration: underline;
+}

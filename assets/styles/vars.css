@@ -1,0 +1,9 @@
+:root {
+    --font: "DM Sans", sans-serif;
+
+    --bg: #111;
+    --bg-language: #555;
+    --bg-item-list: #fff;
+    --bg-footer: #0b0b0b;
+    --highlight: #0a0af8;
+}
